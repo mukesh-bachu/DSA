@@ -1,4 +1,6 @@
 package J_06_BinaryTrees;
+import J_07_AVLTree.AVLTree;
+
 import java.util.*;
 public class Tree {
     private class Node{
@@ -271,5 +273,23 @@ public class Tree {
         }
         return false;
     }
+
+ private int balanceFactor(Node node){
+        return (node == null)?0: height(node.left) - height(node.right);
+ }
+    public boolean isBalanced(){
+        return isBalanced(root);
     }
+    private boolean isBalanced(Node root){
+        if(root == null)
+            return true;
+        return  (Math.abs(balanceFactor(root)) <= 1) && isBalanced(root.right) && isBalanced(root.left);
+    }
+
+    public boolean isPerfect(){
+        return size() == (Math.pow(2, height() + 1) - 1);
+    }
+    }
+
+
 
