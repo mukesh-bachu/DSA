@@ -47,3 +47,12 @@ Queues
    6. LinkedListQueue - Implemented queue using a linked list supporting all the operations of a queue
    7. StackWithTwoQueues - Implemented a stack using two queues supporting all the operations of a stack
 
+
+Hash Tables
+
+   1. CharFinder - Implements two methods to find the first repeating character and first non-repeating character
+   2. CountPairs - Implements method to find the unique number of pairs in a given array with k difference
+   3. HashTable - Implements operations like put, remove, and get of a HashTable from scratch using chaining
+   4. MostFrequentElement - Implements method to find the most repeating character in a given array
+   5. TwoSum - Implements method to find the pair of integers in a given array which sum up to given target
+
