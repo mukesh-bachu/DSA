@@ -77,4 +77,10 @@ Binary Tress
    16. contains(int val) - returns true if the given value is in the binary tree( implemented using recursion)
    17. areSibling(int val1, int val2) - returns true if the given values are present in any siblings nodes of a binary tree
    18. getAncestors(int val) - return the list of ancestors of a given value if it is present in a binary tree
+   19. isBalanced() - returns true if the binary tree is balanced(i.e difference in the height of right & left subtree is less than 1)
+   20. isPerfect() - returns true if the binary tree is a perfect tree i.e every level (except the last level) is full of nodes
+
+AVLTrees
+    Implemeted insert method to build an AVL tree which is self balanced. It includes several private methods to track the height of each AVL Node, 
+balance factor, and implemented methods for left rotation, and right rotation.
 
