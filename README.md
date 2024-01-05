@@ -56,3 +56,25 @@ Hash Tables
    4. MostFrequentElement - Implements method to find the most repeating character in a given array
    5. TwoSum - Implements method to find the pair of integers in a given array which sum up to given target
 
+
+Binary Tress
+
+   1. insert(int value) - inserts the given value in the correct position in a BST
+   2. find(int value)  - return true if the given value in the BST
+   3. traversePreOrder() - prints the pre-order traversal of elements in a binary tree
+   4. traverseInOrder() - prints the inorder traversal of elements in a binary tree
+   5. traversePostOrder() - prints the post-order traversal of elements in a binary tree
+   6. height() - returns the height of a binary tree
+   7. min() - return the minimum value in the binary tree
+   8. equals(Tree other) - returns true if the given tree is the same as the binary tree
+   9. isBST() - returns true if the binary tree is a BST
+   10. getNodesAtDistance(int distance) - return a list of integers that are present at a given distance from the root
+   11. traverseLevelOrder() - prints the level order traversal of elements in the binary tree
+   12. minBST() - returns the minimum value in a BST
+   13. maxBST() - returns the maximum value in a BST
+   14. size()- returns the number of nodes in a binary tree
+   15. countLeaves() - returns the number of leaf nodes in a binary tree
+   16. contains(int val) - returns true if the given value is in the binary tree( implemented using recursion)
+   17. areSibling(int val1, int val2) - returns true if the given values are present in any siblings nodes of a binary tree
+   18. getAncestors(int val) - return the list of ancestors of a given value if it is present in a binary tree
+
