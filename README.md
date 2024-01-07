@@ -92,3 +92,15 @@ Heaps
    4. MinPriorityQueue -Implemented priority queue using MinHeap class and storing the elements based on their key value
    5. PriorityQueueWithHeap - Implemented priority queue using the heap class
 
+
+
+Trie
+
+   1. insert(String word) - inserts the given word into the trie
+   2. lookUp(String word) - returns true if the given word is present in trie
+   3. traverse() - traverse the trie and print the characters 
+   4. remove(String word) - removes the given word from trie if it exists
+   5. findWords(String prefix) - return a list of all words that contain the given prefix
+   6. containsRecursive(String word) - returns true if the given word is present in the trie
+   7. countWords() - return the numbers of words in the trie
+
