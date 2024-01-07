@@ -84,3 +84,11 @@ AVLTrees
     Implemeted insert method to build an AVL tree which is self balanced. It includes several private methods to track the height of each AVL Node, 
 balance factor, and implemented methods for left rotation, and right rotation.
 
+Heaps
+
+   1. Heap - Implemented Heap class with methods to support add, remove, and isEmpty operations
+   2. MaxHeap - Implemented heapify method to convert any given array of integers to a max heap
+   3. MinHeap -Implemented MinHeap class with a private node class to heapify based on the key of a node
+   4. MinPriorityQueue -Implemented priority queue using MinHeap class and storing the elements based on their key value
+   5. PriorityQueueWithHeap - Implemented priority queue using the heap class
+
