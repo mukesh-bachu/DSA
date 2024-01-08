@@ -149,3 +149,18 @@ Searching Algos
    4. jumpSearch - returns the index of the element if found or -1  if not using jump search
    5. exponentialSearch - returns the index of the element if found or -1  if not using exponential search
 
+
+
+Strings
+
+   1. countVowels - return the number of vowels in the given string;
+   2. reverse - reverses the given string and returns it
+   3. reverseWords - return new string where the words in the original string are reverse in order
+   4. areRotations - return true of the given two strings are rotations of each other
+   5. removeDuplicates - return the string after removing all the duplicate characters
+   6. getMaxRecurringChar - return the char that is most repeated in the string
+   7. capitalize - return the string after capitalizing every word in the sentence
+   8. areAnagrams - returns true if the given two strings are anagrams
+   9. isPalindrome - returns true if the given string is a palindrome
+
+
