@@ -104,15 +104,39 @@ Trie
    6. containsRecursive(String word) - returns true if the given word is present in the trie
    7. countWords() - return the numbers of words in the trie
 
+Graphs
+
+   1. addNode(String label) - creates a new node with given value and add it to the graph
+   2. addEdge(String from, String to) - created an edge between two nodes if the two nodes are present in graph
+   3. print() - prints the info about the nodes and their graphs
+   4. removeNode(String label) - removes the node from graph and all the edges connected to the given node
+   5. removeEdge(String from, String to) - removes the edge if present from the adjancey list
+   6. traverseDepthFirstRec(String root) - traveses the graph using dfs traversal recursively
+   7. traverseDepthFirst(String root) - traveses the graph using dfs traversal iteratively
+   8. traverseBreadthFirst(String root) - traverse the graph using bfs
+   9. topologicalSort() - implemented  topological sort traversal on graphs without any cycles
+   10. hasCycle() - detects and returns true if the graph has  a cycle
+
+Weighted Graphs
+
+   1. addNode(String label) - creates and adds a new node to the graph
+   2. addEdge(String from, String to, int weight) - adds two edges both from and to in the graph
+   3. print() - prints the adjancey list of the graph
+   4. getShortestPath(String from, String to) -   Implemented Dijkstra's algorithm to find the shortest path between given nodes
+   5. hasCycle() -returns true of the graph has a cycle
+   6. getMinimumSpanningTree() - Implemented Primms algorithm to find the minimum spanning tree
+   7. containsNode(String label) - return true if the graph has give node
+
+
 
 
 Sorting Algos
 
-1. Bubble Sort - sorts the given array using Bubble sort technique
-2. Selection sort - sorts the given array using Selection sort technique
-3. Insertion sort - sorts the given array using Insertion sort technique
-4. Merge Sort - sorts the given array using Merge sort technique
-5. Quick Sort - sorts the given array using Quick sort technique
-6. Bucket Sort - sorts the given array using Bucket sort technique
-7. Counting Sort - sorts the given array using Counting sort technique
+   1. Bubble Sort - sorts the given array using Bubble sort technique
+   2. Selection sort - sorts the given array using Selection sort technique
+   3. Insertion sort - sorts the given array using Insertion sort technique
+   4. Merge Sort - sorts the given array using Merge sort technique
+   5. Quick Sort - sorts the given array using Quick sort technique
+   6. Bucket Sort - sorts the given array using Bucket sort technique
+   7. Counting Sort - sorts the given array using Counting sort technique
 
