@@ -140,3 +140,12 @@ Sorting Algos
    6. Bucket Sort - sorts the given array using Bucket sort technique
    7. Counting Sort - sorts the given array using Counting sort technique
 
+
+
+Searching Algos
+   1. linearSearch - returns the index of the element if found or -1 if not using linear search
+   2. binarySearch - returns the index of the element if found or -1 if not using binary search
+   3. ternarySearch returns the index of the element if found or -1 if not using ternary search
+   4. jumpSearch - returns the index of the element if found or -1  if not using jump search
+   5. exponentialSearch - returns the index of the element if found or -1  if not using exponential search
+
