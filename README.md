@@ -104,3 +104,15 @@ Trie
    6. containsRecursive(String word) - returns true if the given word is present in the trie
    7. countWords() - return the numbers of words in the trie
 
+
+
+Sorting Algos
+
+1. Bubble Sort - sorts the given array using Bubble sort technique
+2. Selection sort - sorts the given array using Selection sort technique
+3. Insertion sort - sorts the given array using Insertion sort technique
+4. Merge Sort - sorts the given array using Merge sort technique
+5. Quick Sort - sorts the given array using Quick sort technique
+6. Bucket Sort - sorts the given array using Bucket sort technique
+7. Counting Sort - sorts the given array using Counting sort technique
+
