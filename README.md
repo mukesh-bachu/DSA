@@ -3,7 +3,7 @@
 DSA
 
 
-Arrays
+Arrays 
    1. insert(int val) - inserts the value after the last element in the array
    2. removeAt(int index) - removes a value at a given index and updates the elements right to it to correct positions
    3. indexOf(int val) - returns the index of a given value, if the element is not present, returns -1
